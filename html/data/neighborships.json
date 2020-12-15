@@ -1,0 +1,46 @@
+{
+    "Huawei1": [
+        {
+            "local_int_index": 33,
+            "local_intf": "GigabitEthernet0/0/24",
+            "neighbor": "Huawei2",
+            "neighbor_intf": "GigabitEthernet0/0/24"
+        },
+        {
+            "local_int_index": 49,
+            "local_intf": "GigabitEthernet0/0/1",
+            "neighbor": "Cisco1",
+            "neighbor_intf": "GigabitEthernet0/0/1"
+        }
+    ],
+    "Huawei2": [
+        {
+            "local_int_index": 49,
+            "local_intf": "GigabitEthernet0/0/2",
+            "neighbor": "Huawei1",
+            "neighbor_intf": "GigabitEthernet0/0/2"
+        },
+        {
+            "local_int_index": 33,
+            "local_intf": "GigabitEthernet0/0/1",
+            "neighbor": "Cisco2",
+            "neighbor_intf": "GigabitEthernet0/0/1"
+        }
+    ],
+    "Cisco1": [
+        {
+            "local_int_index": 33,
+            "local_intf": "GigabitEthernet0/0/3",
+            "neighbor": "Huawei1",
+            "neighbor_intf": "GigabitEthernet0/0/3"
+        }
+    ],
+    "Cisco2": [
+        {
+            "local_int_index": 33,
+            "local_intf": "GigabitEthernet0/0/22",
+            "neighbor": "Huawei2",
+            "neighbor_intf": "GigabitEthernet0/0/22"
+        }
+    ]
+}

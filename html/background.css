@@ -1,0 +1,14 @@
+body {
+  font-size: 9px;
+  font-weight: 600;
+}
+.page {
+  background-color: #abddd2;
+  background-image: linear-gradient(to right, rgba(155, 187, 179, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+  font-family: 'serif', cursive;
+  /*AustralisProSwash-Italic"*/
+  /*width: calc(8.5in - 15em);*/
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  /*padding: 5em 10em 15em 5em; */
+}

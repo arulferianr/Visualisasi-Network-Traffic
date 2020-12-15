@@ -1,0 +1,50 @@
+{
+    "Huawei1": [
+        {
+            "ifAdminStatus": "up",
+            "ifDescr": "GigabitEthernet1/0",
+            "ifMtu": "1500",
+            "ifOperStatus": "up",
+            "ifPhysAddress": "08:00:27:07:f1:46",
+            "ifSpeed": "1000000000",
+            "ifType": "ethernetCsmacd",
+            "index": 17
+        }
+    ],
+    "Huawei2": [
+        {
+            "ifAdminStatus": "up",
+            "ifDescr": "GigabitEthernet1/0",
+            "ifMtu": "1500",
+            "ifOperStatus": "up",
+            "ifPhysAddress": "08:00:27:7f:e2:2b",
+            "ifSpeed": "1000000000",
+            "ifType": "ethernetCsmacd",
+            "index": 17
+        }
+    ],
+    "Cisco1": [
+        {
+            "ifAdminStatus": "up",
+            "ifDescr": "GigabitEthernet1/0",
+            "ifMtu": "1500",
+            "ifOperStatus": "up",
+            "ifPhysAddress": "08:00:27:e2:da:20",
+            "ifSpeed": "1000000000",
+            "ifType": "ethernetCsmacd",
+            "index": 17
+        }
+    ],
+    "Cisco2": [
+        {
+            "ifAdminStatus": "up",
+            "ifDescr": "GigabitEthernet1/0",
+            "ifMtu": "1500",
+            "ifOperStatus": "up",
+            "ifPhysAddress": "08:00:27:e2:da:20",
+            "ifSpeed": "1000000000",
+            "ifType": "ethernetCsmacd",
+            "index": 17
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "links": [
+        {
+            "highest_utilization": 0,
+            "source": "Huawei1",
+            "source_interfaces": [
+                "GigabitEthernet0/0/2"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Huawei2",
+            "target_interfaces": [
+                "GigabitEthernet0/0/24"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        },
+        {
+            "highest_utilization": 0,
+            "source": "Huawei1",
+            "source_interfaces": [
+                "GigabitEthernet0/0/3"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Cisco1",
+            "target_interfaces": [
+                "GigabitEthernet0/0/1"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        },
+        {
+            "highest_utilization": 0,
+            "source": "Huawei2",
+            "source_interfaces": [
+                "GigabitEthernet0/0/22"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Cisco2",
+            "target_interfaces": [
+                "GigabitEthernet0/0/1"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        },
+        {
+            "highest_utilization": 0,
+            "source": "Huawei2",
+            "source_interfaces": [
+                "GigabitEthernet0/0/21"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Huawei1",
+            "target_interfaces": [
+                "GigabitEthernet0/0/6"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        },
+        {
+            "highest_utilization": 0,
+            "source": "Cisco2",
+            "source_interfaces": [
+                "GigabitEthernet0/0/2"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Huawei2",
+            "target_interfaces": [
+                "GigabitEthernet0/0/23"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        },
+        {
+            "highest_utilization": 0,
+            "source": "Cisco1",
+            "source_interfaces": [
+                "GigabitEthernet0/0/2"
+            ],
+            "source_interfaces_indes": [
+                33
+            ],
+            "speed": "1",
+            "target": "Huawei1",
+            "target_interfaces": [
+                "GigabitEthernet0/0/4"
+            ],
+            "target_interfaces_indes": [
+                33
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "group": "1",
+            "id": "Huawei1",
+            "image": "AC.png"
+        },
+        {
+            "group": "1",
+            "id": "Huawei2",
+            "image": "AC.png"
+        },
+        {
+            "group": "1",
+            "id": "Cisco1",
+            "image": "AC.png"
+        },
+        {
+            "group": "1",
+            "id": "Cisco2",
+            "image": "AC.png"
+        }
+    ]
+}
